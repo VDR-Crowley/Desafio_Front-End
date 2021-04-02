@@ -1,0 +1,108 @@
+@media (max-width: 375px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 85vw;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  #header {
+    padding: 1rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #header h1 {
+    font-size: 1.2rem;
+  }
+
+  #header p:nth-child(2) {
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  #header p:nth-of-type(2) {
+    line-height: 1.4rem;
+    font-size: small;
+  }
+
+  #area1 {
+    padding: 1rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-bottom-left-radius: 0px;
+  }
+
+  #area1 h1 {
+    font-size: 1.2rem;
+  }
+
+  #area1 h2 {
+    font-size: 2rem;
+    padding: .9rem 0;
+  }
+
+  #area1 p {
+    font-size: 1.2rem;
+  }
+  
+  #area1 button {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  #area2 {
+    padding: 1.5rem;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  #area2 h1 {
+    font-size: 1rem;
+  }
+
+  #area1 h2 small {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  #area2 p {
+    line-height: 1.2rem;
+  }
+
+  footer {
+    overflow: hidden;
+  }
+
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 72.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 85.5%;
+  }
+}
