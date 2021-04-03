@@ -73,12 +73,12 @@ main {
   border-bottom-left-radius: 20px;
 }
 
-#area1 h1 {
+#area1 h2 {
   color: white;
   font-size: 1.4rem;
 }
 
-#area1 h2 {
+#area1 h3 {
   color: white;
   font-size: 1.8rem;
   padding: 1.2rem 0;
@@ -86,7 +86,7 @@ main {
   align-items: center;
 }
 
-#area1 h2 small {
+#area1 h3 small {
   color: #B5B5B5;
   font-size: 1rem;
   font-weight: 400;
@@ -124,7 +124,7 @@ main {
   border-bottom-right-radius: 20px;
 }
 
-#area2 h1{
+#area2 h2{
   color: white;
   font-size: 1.4rem;
 }

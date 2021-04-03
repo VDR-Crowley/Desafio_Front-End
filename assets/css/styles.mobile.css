@@ -50,11 +50,11 @@
     border-bottom-left-radius: 0px;
   }
 
-  #area1 h1 {
+  #area1 h2 {
     font-size: 1.2rem;
   }
 
-  #area1 h2 {
+  #area1 h3 {
     font-size: 2rem;
     padding: .9rem 0;
   }
@@ -78,11 +78,11 @@
     border-bottom-right-radius: 0px;
   }
 
-  #area2 h1 {
+  #area2 h2 {
     font-size: 1rem;
   }
 
-  #area1 h2 small {
+  #area1 h3 small {
     font-size: 1rem;
     margin-left: 1rem;
   }
