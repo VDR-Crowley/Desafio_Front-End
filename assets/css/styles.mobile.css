@@ -16,6 +16,7 @@
 
   .container {
     width: 85vw;
+    height: 100vh;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 1fr);
   }
@@ -91,9 +92,8 @@
   }
 
   footer {
-    overflow: hidden;
+    margin-top: 5rem;
   }
-
 }
 
 @media (max-width: 768px) {
